@@ -1,6 +1,309 @@
 {
   "Minitest": {
     "coverage": {
+      "/Users/danburnside/code/CodecovTest/app/models/order.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null,
+          1,
+          2,
+          null,
+          1,
+          null,
+          1,
+          null,
+          0,
+          null,
+          0,
+          null,
+          0,
+          null,
+          0,
+          null,
+          null,
+          null,
+          null,
+          1,
+          0,
+          null,
+          0,
+          null,
+          0,
+          null,
+          0,
+          null,
+          0,
+          null,
+          null,
+          null,
+          0,
+          null,
+          null,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null,
+          1,
+          0,
+          null,
+          null
+        ],
+        "branches": {
+          "[:case, 0, 13, 4, 26, 7]": {
+            "[:when, 1, 15, 6, 15, 37]": 1,
+            "[:when, 2, 17, 6, 17, 37]": 1,
+            "[:when, 3, 19, 6, 19, 35]": 0,
+            "[:when, 4, 21, 6, 21, 37]": 0,
+            "[:when, 5, 23, 6, 23, 37]": 0,
+            "[:else, 6, 25, 6, 25, 22]": 0
+          },
+          "[:if, 7, 31, 4, 31, 39]": {
+            "[:then, 8, 31, 4, 31, 14]": 0,
+            "[:else, 9, 31, 4, 31, 39]": 0
+          },
+          "[:case, 10, 33, 4, 44, 7]": {
+            "[:when, 11, 35, 6, 35, 25]": 0,
+            "[:when, 12, 37, 6, 37, 25]": 0,
+            "[:when, 13, 39, 6, 39, 25]": 0,
+            "[:when, 14, 40, 4, 43, 26]": 0,
+            "[:else, 15, 43, 6, 43, 26]": 0
+          }
+        }
+      },
+      "/Users/danburnside/code/CodecovTest/app/models/application_record.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ],
+        "branches": {
+        }
+      },
+      "/Users/danburnside/code/CodecovTest/app/models/product.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          5,
+          1,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          0,
+          null,
+          null,
+          null,
+          null,
+          1,
+          0,
+          0,
+          null,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null,
+          1,
+          0,
+          0,
+          null,
+          0,
+          null,
+          null,
+          null
+        ],
+        "branches": {
+          "[:if, 0, 7, 4, 7, 56]": {
+            "[:then, 1, 7, 4, 7, 16]": 4,
+            "[:else, 2, 7, 4, 7, 56]": 1
+          },
+          "[:if, 3, 13, 4, 17, 7]": {
+            "[:then, 4, 14, 6, 14, 44]": 1,
+            "[:else, 5, 16, 6, 16, 55]": 0
+          },
+          "[:if, 6, 22, 4, 36, 7]": {
+            "[:then, 7, 23, 6, 23, 15]": 0,
+            "[:else, 8, 25, 6, 35, 9]": 0
+          },
+          "[:if, 9, 27, 6, 35, 9]": {
+            "[:then, 10, 28, 8, 28, 32]": 0,
+            "[:else, 11, 29, 6, 34, 37]": 0
+          },
+          "[:if, 12, 29, 6, 34, 37]": {
+            "[:then, 13, 30, 8, 30, 37]": 0,
+            "[:else, 14, 31, 6, 34, 37]": 0
+          },
+          "[:if, 15, 31, 6, 34, 37]": {
+            "[:then, 16, 32, 8, 32, 37]": 0,
+            "[:else, 17, 34, 8, 34, 37]": 0
+          },
+          "[:if, 18, 46, 4, 50, 7]": {
+            "[:then, 19, 47, 6, 47, 74]": 0,
+            "[:else, 20, 49, 6, 49, 9]": 0
+          }
+        }
+      },
+      "/Users/danburnside/code/CodecovTest/app/controllers/products_controller.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          1,
+          0,
+          null,
+          1,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          0,
+          null,
+          0,
+          0,
+          null,
+          0,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          1,
+          0,
+          0,
+          null,
+          0,
+          null,
+          null,
+          null,
+          1,
+          0,
+          0,
+          null,
+          null,
+          1,
+          null,
+          1,
+          4,
+          null,
+          3,
+          null,
+          null,
+          1,
+          0,
+          null,
+          null
+        ],
+        "branches": {
+          "[:if, 0, 5, 16, 9, 7]": {
+            "[:then, 1, 6, 6, 6, 37]": 0,
+            "[:else, 2, 8, 6, 8, 17]": 1
+          },
+          "[:if, 3, 23, 4, 27, 7]": {
+            "[:then, 4, 24, 6, 24, 71]": 0,
+            "[:else, 5, 26, 6, 26, 17]": 0
+          },
+          "[:if, 6, 35, 4, 39, 7]": {
+            "[:then, 7, 36, 6, 36, 71]": 0,
+            "[:else, 8, 38, 6, 38, 18]": 0
+          }
+        }
+      },
+      "/Users/danburnside/code/CodecovTest/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          null
+        ],
+        "branches": {
+        }
+      },
+      "/Users/danburnside/code/CodecovTest/app/helpers/application_helper.rb": {
+        "lines": [
+          1,
+          null
+        ],
+        "branches": {
+        }
+      },
+      "/Users/danburnside/code/CodecovTest/app/helpers/orders_helper.rb": {
+        "lines": [
+          1,
+          null
+        ],
+        "branches": {
+        }
+      },
+      "/Users/danburnside/code/CodecovTest/app/helpers/products_helper.rb": {
+        "lines": [
+          1,
+          null
+        ],
+        "branches": {
+        }
+      },
+      "/Users/danburnside/code/CodecovTest/app/controllers/orders_controller.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          null,
+          1,
+          null,
+          null,
+          1,
+          null,
+          null,
+          1,
+          null,
+          null
+        ],
+        "branches": {
+        }
+      },
       "/Users/danburnside/code/CodecovTest/app/channels/application_cable/channel.rb": {
         "lines": [
           0,
@@ -15,22 +318,6 @@
         "lines": [
           0,
           0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/danburnside/code/CodecovTest/app/controllers/application_controller.rb": {
-        "lines": [
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/danburnside/code/CodecovTest/app/helpers/application_helper.rb": {
-        "lines": [
           0,
           0
         ],
@@ -59,17 +346,8 @@
         ],
         "branches": {
         }
-      },
-      "/Users/danburnside/code/CodecovTest/app/models/application_record.rb": {
-        "lines": [
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
       }
     },
-    "timestamp": 1741701082
+    "timestamp": 1741702936
   }
 }
