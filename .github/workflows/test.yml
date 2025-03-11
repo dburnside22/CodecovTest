@@ -12,7 +12,7 @@ jobs:
 
     services:
       sqlite:
-        image: sqlite:latest
+        image: nouchka/sqlite3:latest
 
     steps:
       - uses: actions/checkout@v3
@@ -34,6 +34,3 @@ jobs:
         env:
           CI: true
           CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
-
-    # The coverage report is automatically uploaded to Codecov by the codecov gem
-    # when CI=true and CODECOV_TOKEN is set
