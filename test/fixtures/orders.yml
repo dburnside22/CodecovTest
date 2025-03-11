@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  customer_name: John Doe
+  total: 99.99
+  status: pending
+
+two:
+  customer_name: Jane Smith
+  total: 149.99
+  status: shipped
