@@ -1,3 +1,18 @@
+require 'simplecov'
+require 'codecov'
+
+SimpleCov.start 'rails' do
+  enable_coverage :branch
+  
+  # Add any custom SimpleCov filters here if needed
+  # add_filter '/some/path/'
+end
+
+# Upload to Codecov if running in CI environment
+if ENV['CI'] == 'true'
+  SimpleCov.formatter = SimpleCov::Formatter::Codecov
+end
+
 ENV["RAILS_ENV"] ||= "test"
 require_relative "../config/environment"
 require "rails/test_help"

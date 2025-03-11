@@ -1,0 +1,39 @@
+name: Tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    services:
+      sqlite:
+        image: sqlite:latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.3.7
+          bundler-cache: true
+
+      - name: Install dependencies
+        run: bundle install
+
+      - name: Set up database
+        run: bin/rails db:create db:schema:load
+
+      - name: Run tests
+        run: bin/rails test
+        env:
+          CI: true
+          CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
+
+    # The coverage report is automatically uploaded to Codecov by the codecov gem
+    # when CI=true and CODECOV_TOKEN is set
